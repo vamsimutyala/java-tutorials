@@ -1,5 +1,6 @@
 /**
 * This function is used to demo operator overloading 
+*
 */
 
 class OperatorOverloading {
@@ -9,7 +10,7 @@ class OperatorOverloading {
         String firstname = "vamsi";
         String lastname = "krishna";
         System.out.println(a+b); //Adding integers
-        System.out.println(a+" "+b); //Concat integers
-        System.out.println(firstname+" "+lastname); //Concat strings
+        System.out.println(a+"/"+b); //Concat integers
+        System.out.println(firstname+lastname); //Concat strings
     }
 }

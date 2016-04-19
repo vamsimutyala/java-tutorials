@@ -5,8 +5,8 @@
 class TypeCasting{
      public static void main(String[] args){
          //Widening int is changed to float with 8 bytes
-         int i = 10;
-         float f = i;
+         int i = 10; //4
+         float f = i; //4
          System.out.println(f);
          
          float f1 = 10.0f;
