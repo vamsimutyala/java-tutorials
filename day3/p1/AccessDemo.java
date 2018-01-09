@@ -15,6 +15,7 @@ public class AccessDemo {
         System.out.println(a.pu1);
         System.out.println(a.po);
         System.out.println(a.de);
+        System.out.println(a.de);
     }
     
     public int getProtected(){
